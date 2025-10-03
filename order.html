@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Place Order</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Place an Order</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="order.html">Place Order</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Order Form</h2>
+      <form id="orderForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="service">Select Service:</label>
+        <select id="service">
+          <option>Portfolio Website</option>
+          <option>Calculator App</option>
+          <option>Custom Project</option>
+        </select><br><br>
+
+        <label for="details">Project Details:</label><br>
+        <textarea id="details" rows="4"></textarea><br><br>
+
+        <button type="submit">Submit Order</button>
+      </form>
+      <p id="message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
